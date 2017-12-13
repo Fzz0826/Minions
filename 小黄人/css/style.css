@@ -1,0 +1,241 @@
+*{
+		margin:0;
+		padding:0;
+		-webkit-box-sizing:border-box;
+	}
+	.box{
+		width:240px;
+		height:350px;
+		background: #f9f206;
+		border-radius: 100px;
+		margin:0 auto;
+		padding-top:70px;
+		position: relative;
+		margin-top:20px;
+	}
+	.yan{
+		width:200px;
+		height:60px;
+	}
+	.left{
+		display: inline-block;
+		width:70px;
+		height:70px;
+		border-radius: 50%;
+		background: #fff;
+		margin-left:45px;
+		text-align: center;
+		line-height: 75px;
+		border:5px solid #000;
+	}
+	.right{
+		display: inline-block;
+		width:70px;
+		height:70px;
+		border-radius: 50%;
+		background: #fff;
+		margin-left:5px;
+		text-align: center;
+		line-height: 75px;
+		border:5px solid #000;
+	}
+	.left a,.right a{
+		display: inline-block;
+        width:30px;
+        height: 30px;
+        background: #000;
+        border-radius: 50%;
+        position: relative;
+
+	}
+	.le{
+		display: inline-block;
+        width:15px;
+        height: 15px;
+        background: #fff;
+        border-radius: 50%;
+        position: absolute;
+        top:5px;
+        right:1px;
+	}
+	.ri{
+		display: inline-block;
+        width:15px;
+        height: 15px;
+        background: #fff;
+        border-radius: 50%;
+        position: absolute;
+        top:5px;
+        right:1px;
+	}
+	.lyj{
+		width:45px;
+		height: 8px;
+		background: #000;
+		position: absolute;
+		top:100px;
+	}
+	.lrj{
+		width:45px;
+		height: 8px;
+		background: #000;
+		position: absolute;
+		top:100px;
+        right:0px;
+	}
+	.zui{
+	   display: inline-block;
+	   width:50px;
+	   height:35px;
+	   background: #fff;
+	   border-bottom-right-radius:50%;
+		border-bottom-left-radius:50%;
+	   border:3px solid #000;
+	   position: absolute;
+	   left:50%;
+	   margin-left:-25px;
+	   bottom:150px;
+	}
+	.bottom{
+		width:240px;
+		height:140px;
+		background: #5495bd;
+		border-bottom-right-radius:100px;
+		border-bottom-left-radius:100px;
+		position: absolute;
+		bottom:0;
+	}
+	.b-center{
+		display: inline-block;
+		width:80px;
+		height:60px;
+		background: #2b6789;
+		position: absolute;
+		left:50%;
+		margin-left:-40px;
+		top:50%;
+		margin-top:-30px;
+		padding:5px;
+		border:2px dashed #000;
+		border-bottom-right-radius:100px;
+		border-bottom-left-radius:100px;
+		text-align: center;
+	}
+	.b-center span{
+		display: inline-block;
+		width:40px;
+		height:30px;
+		background: url("../img/cat_13.png") no-repeat;
+		background-size:100% 100%;
+		background-position:center center;
+
+	}
+	.letui{
+		width:30px;
+		height:40px;
+		background: #195270;
+		position: absolute;
+		border-bottom-right-radius:10px;
+		border-bottom-left-radius:10px;
+		bottom:-38px;
+		left:80px;
+	}
+	.ritui{
+		width:30px;
+		height:40px;
+		background: #195270;
+		position: absolute;
+		border-bottom-right-radius:10px;
+		border-bottom-left-radius:10px;
+		bottom:-38px;
+		right:80px;
+	}
+	.letui span{
+		display: inline-block;
+		width:45px;
+		height:20px;
+		border-top-right-radius:13px;
+		border-top-left-radius:25px;
+		border-bottom-right-radius:5px;
+		border-bottom-left-radius:5px;
+		background: #461b24;
+		position: absolute;
+		left:-15px;
+		bottom: -12px;
+	}
+	.ritui span{
+		display: inline-block;
+		width:45px;
+		height:20px;
+		border-top-right-radius:25px;
+		border-top-left-radius:13px;
+		border-bottom-right-radius:5px;
+		border-bottom-left-radius:5px;
+		background: #461b24;
+		position: absolute;
+		right:-15px;
+		bottom: -12px;
+	}
+	.leshou{
+		width:90px;
+		height:10px;
+		background: #f9f206;
+		position: absolute;
+		left:-90px;
+		top:50%;
+
+	}
+	.leshou span{
+		display: inline-block;
+		width:30px;
+		height:30px;
+		background:url("../img/小黄人_03.png") no-repeat;
+		background-size:100% 100%;
+		background-position:center center;
+		position:absolute;
+		top:-7px;
+		left:-5px;
+	}
+	.rishou{
+		width:90px;
+		height:10px;
+		background: #f9f206;
+		position: absolute;
+		right:-90px;
+		top:50%;
+
+	}
+	.rishou span{
+		display: inline-block;
+		width:30px;
+		height:30px;
+		background:url("../img/小黄人_05.png") no-repeat;
+		background-size:100% 100%;
+		background-position:center center;
+		position:absolute;
+		top:-7px;
+		right:-5px;
+	}
+	.top{
+		width:260px;
+		height:40px;
+		border:1px solid #000;
+		position: absolute;
+		top:15px;
+		left:-10px;
+		background: #000;
+        border-top-right-radius:60px;
+		border-top-left-radius:60px;
+	}
+	.top span{
+		display:inline-block;
+		width:220px;
+		height:40px;
+		border:1px solid #000;
+		position: absolute;
+		top:-30px;
+		left:18px;
+		background: #000;
+        border-top-right-radius:10px;
+		border-top-left-radius:10px;
+	}
